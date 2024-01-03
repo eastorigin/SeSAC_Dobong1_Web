@@ -1,0 +1,27 @@
+.box{
+    display: block;
+    background-color: orange;
+    width: auto;
+    height: 200px;
+}
+.HTML{
+    display: inline-block;
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+.CSS{
+    display: inline-block;
+    background-color: green;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+.Javascript{
+    display: inline-block;
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}

@@ -1,0 +1,13 @@
+@import url('./import.css');
+li{
+    color: red;
+    font-size: 30px;
+}
+p{
+    background-color: red;
+    color: white;
+}
+h3{
+    background-color: black;
+    color: white;
+}
