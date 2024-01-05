@@ -73,3 +73,87 @@
 .em{
     font-size: 2em;
 }
+
+.square{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.border{
+    background-color: yellow;
+    /* 단축속성: 굵기 모양 색깔 */
+    /* border: 3px solid red; */
+    border-color: red orange green blue;
+    border-style: dotted;
+    border-width: 3px;
+    border-right-width: 5px;
+}
+
+.rounded{
+    background-color: yellowgreen;
+    /* border-radius: 50%; = 50px = 원 모양 */
+    border-radius: 5px 10px 20px 40px;
+    border-radius: 5px 20px 40px;
+    border-radius: 5px 40px;
+}
+
+.exercise{
+    border-width: 5px 10px 15px 20px;
+    border-style: none solid dotted dashed;
+    border-color: black red blue green;
+}
+
+.box-sizing{
+    padding: 20px;
+    border: 15px solid red;
+    background-color: orange;
+}
+
+.content-box{
+    box-sizing: content-box;
+}
+
+.border-box{
+    box-sizing: border-box;
+}
+
+.d-none {
+    display: none;
+    background-color: red;
+}
+
+.invisible {
+    visibility: hidden;
+    background-color: orangered;
+}
+
+.opacity-0 {
+    opacity: 0.5;
+    background-color: tomato;
+}
+
+.practice{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.practice:hover{
+    display: none;
+}
+
+.overflow-hidden{
+    overflow: hidden;    
+}
+.overflow-scroll{
+    overflow: scroll;
+}
+.overflow-auto{
+    overflow: auto;
+}
+.overflow-visible{
+    overflow: visible;
+}

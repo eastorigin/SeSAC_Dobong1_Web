@@ -1,0 +1,64 @@
+.circle{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.circle1{
+    background-color: aqua;
+}
+.circle2{
+    background-color: brown;
+    top: 40px;
+    left: 40px;
+    z-index: 1;
+}
+.circle3{
+    background-color: yellow;
+    top: 110px;
+    left: 90px;
+    z-index: 2;
+}
+.circle4{
+    background-color: red;
+    top: 140px;
+    left: 120px;
+    z-index: 3;
+}
+.circle5{
+    background-color: green;
+    top: 170px;
+    left: 150px;
+    z-index: 5;
+}
+.container{
+    width: 100px;
+    height: 190px;
+    position: relative;
+}
+.inner1{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    position: absolute;
+    
+}
+
+.inner2{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50px;
+    z-index: 3;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+img{
+    position: relative;    
+    z-index: 4;
+}
