@@ -1,0 +1,19 @@
+.lorem{
+    width: 1000px;
+    height: 100px;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes slide{
+    0%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+        width: 500px;
+    }
+}

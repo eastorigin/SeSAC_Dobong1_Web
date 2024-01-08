@@ -35,10 +35,11 @@
         background-color: gray;
         color: red;
       }
-      input[id="red"]:checked{
+      /* input[id="red"]:checked{} */
+      input#red:checked + label{
         background-color: red;
         color: white;
-      }
+      }  
       input[id="blue"]:checked{
         background-color: blue;
         color: white;
@@ -62,11 +63,18 @@
       <label for="textarea">
         <textarea id="textarea" rows="10" placeholder="건의사항"></textarea>
       </label>
+      <!--
       <label for="red">
         <input type="checkbox" id="red">빨강
-      </label>
-      <label for="blue">
-        <input type="checkbox" id="blue">파랑
+      </label> -->
+      <input type="checkbox" id="red">
+      <label for="red">빨강</label>
+      <!--
+        label을 input 자식으로 놓을 수 없는 이유는 input에서 체크 되었을 때 라벨을 선택해야 하는데 부모는 선택 불가능
+        따라서 label과 input을 형제로 놓아야 선택을 할 수 있음.
+      -->
+      <label>
+        <input type="checkbox">파랑
       </label>
       <label for="yellow">
         <input type="checkbox" id="yellow">노랑
