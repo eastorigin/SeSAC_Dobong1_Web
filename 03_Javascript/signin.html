@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in</title>
+</head>
+<body>
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">이메일</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">비밀번호</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">주소</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="서울특별시 도봉구">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">상세주소</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="노해로 9길 21">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">지역번호</label>
+          <select id="inputState" class="form-select">
+            <option selected>02</option>
+            <option>031</option>
+            <option>032</option>
+            <option>033</option>
+            <option>041</option>
+            <option>042</option>
+            <option>043</option>
+            <option>044</option>
+          </select>
+          <label for="inputZip" class="form-label">나머지 번호</label>
+          <input type="text" class="form-control" id="inputZip">
+
+        </div>
+        <div class="col-md-2">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              개인정보 제공에 동의합니다.
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">가입</button>
+        </div>
+      </form>
+</body>
+</html>
