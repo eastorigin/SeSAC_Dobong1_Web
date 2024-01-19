@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스케줄 등록하기</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <style>
+        h1 {
+            color: green;
+        }
+        .day {
+            font-weight: bold;
+        }
+        td {
+            align-content: center;
+            width: 100px;
+            height: 100px;
+        }
+        .red {
+            color: red;
+        }
+        .blue {
+            color: blue;
+        }
+    </style>
+    <script>
+        $('td').on('click', function() {
+            $('#date').val('$(this).text()');
+        })
+        
+        function wirte() {
+            
+        }
+
+        $('button').click(function() {
+            $('td').append('<p></p>')
+        })
+    </script>
+</head>
+<body>
+    <label for="date">날짜 : </label>
+    <input type="text" id="date">
+    <br>
+    <label for="content">내용 : </label>
+    <input type="text" id="content">
+    <br>
+    <button on click="write">작성</button>
+    <table width="50%" height="50%" allign="center">
+        <caption>
+            <h1>2024년 1월</h1>
+        </caption>
+        <tr class="day">
+            <td class="red">日</td>
+            <td>月</td>
+            <td>火</td>
+            <td>水</td>
+            <td>木</td>
+            <td>金</td>
+            <td class="blue">土</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td class="blue">6</td>
+        </tr>
+        <tr>
+            <td class="red">7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td class="blue">13</td>
+        </tr>
+        <tr>
+            <td class="red">14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td class="blue">20</td>
+        </tr>
+        <tr>
+            <td class="red">21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td class="blue">27</td>
+        </tr>
+        <tr>
+            <td class="red">28</td>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
