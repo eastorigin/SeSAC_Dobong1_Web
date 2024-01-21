@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table 실습 1</title>
+    <style>
+        table{
+            width: 800px;
+            height: 500px;
+            /* 셀 테두리 간에 간격 없애기 */
+            border-collapse: collapse;
+        }
+        td {
+            /* 셀 테두리 */
+            border: 1px solid black;
+            /* 셀 내용 가운데 정렬 */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            <h1>colspan과 rowspan 이용하기</h1>
+        </caption>
+        <tr>
+            <!-- 셀 가로 병합 -->
+            <td colspan="2">1</td>
+            <!-- 셀 세로 병합 -->
+            <td rowspan="2">2</td>
+        </tr>
+        <tr>
+            <td rowspan="2">3</td>
+            <td>center</td>
+        </tr>
+        <tr>
+            <td colspan="2">4</td>
+        </tr>
+    
+    </table>
+</body>
+</html>

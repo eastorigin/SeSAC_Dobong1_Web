@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기본 태그 사용하기</title>
+</head>
+<body>
+    <!-- 카페 이름 <h1> -->
+    <h1>동녘의 근원</h1>
+    <!--
+        카페 전체 음료 리스트는 <ul> 태그
+        <ul> 자식 요소 <ol> 넣고 가격 표시
+    -->
+    <ul>
+        <li> 
+            <!-- 
+            메뉴 이름 <h2>. <h2>태그는 <ol>의 자식이 아닌 형제 요소로 설정해야 함.
+            -->
+            <h2>아메리카노</h2>
+            <ol type="i">
+                <li>small: 1,000원</li>
+                <li>medium: 1,500원</li>
+                <li>large: 2,000원</li>
+            </ol>
+
+        </li>
+        <li>
+            <h2>에스프레소</h2>
+            <ol type="i">
+                <li>small: 1,500원</li>
+                <li>medium: 2,0000원</li>
+                <li>large: 3,000원</li>
+            </ol>    
+        </li>
+        <li>
+            <h2>카페라떼</h2>
+            <ol type="i">
+                <li>small: 2,000원</li>
+                <li>medium: 2,500원</li>
+                <li>large: 3,000원</li>
+            </ol>    
+        </li>
+    </ul>
+    <!-- <ul> 태그 아래에 수평줄 추가하고 각각 음료에 대해 <p> 태그 사용하여 설명 -->
+    <hr>
+    <p>
+        아메리카노: 기본 음료
+        <br>
+        에스프레소: 양이 적고 진하며 쓴맛이 강하다
+        <br>
+        카페라떼: 커피에 우유 추가
+    </p>
+</body>
+</html>
