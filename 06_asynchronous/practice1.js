@@ -49,12 +49,12 @@ function hell() {
 //   });
 
 async function execute() {
-  const name = await callPromise("kim");
+  const name = await call("kim");
   console.log(name + "반가워");
-  const back = await backPromise();
-  console.log(back + "을 실행했구나");
-  let hell = await hellPromise();
-  console.log("여기는" + hell);
+  const txt = await back();
+  console.log(txt + "을 실행했구나");
+  const message = await hell();
+  console.log("여기는 " + message);
 }
 
 execute();
