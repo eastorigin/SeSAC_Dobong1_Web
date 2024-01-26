@@ -10,8 +10,8 @@ function call(name) {
 function back() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      console.log("back");
-      resolve("back");
+      console.log("back1");
+      resolve("back2");
     }, 1000);
   });
 }
@@ -50,6 +50,7 @@ function hell() {
 
 async function execute() {
   const name = await call("kim");
+  // const + then 인자
   console.log(name + "반가워");
   const txt = await back();
   console.log(txt + "을 실행했구나");
