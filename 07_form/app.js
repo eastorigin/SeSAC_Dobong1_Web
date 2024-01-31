@@ -3,7 +3,7 @@ const app = express();
 const PORT = 8080;
 
 app.set("view engine", "ejs");
-app.set("vews", "./views");
+app.set("views", "./views");
 // body-parser 미들웨어 등록
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json()); //json 형식으로 데이터를 주고 받음

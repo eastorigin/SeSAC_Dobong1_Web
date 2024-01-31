@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>axios get 회원가입</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <form name="register">
+      <legend>실습 axios get 회원가입</legend>
+      <label for="name">이름</label>
+      <input type="text" id="name" name="name" />
+      <fieldset>
+        <legend>성별</legend>
+        <input type="radio" id="men" value="남자" name="gender" />
+        <label for="men">남자</label>
+        <input type="radio" id="women" value="여자" name="gender" />
+        <label for="women">여자</label>
+      </fieldset>
+      <fieldset>
+        <legend>생년월일</legend>
+        <select name="year" id="year">
+          <%for(let i=1900; i<=2024; i++){%>
+          <option value="<%=i%>"><%=i%></option>
+          <%}%>
+        </select>
+        <select name="month" id="month">
+          <%for(let i=1; i<=12; i++){%>
+          <option value="<%=i%>"><%=i%></option>
+          <%}%>
+        </select>
+        <select name="date" id="date">
+          <%for(let i=1; i<=31; i++){%>
+          <option value="<%=i%>"><%=i%></option>
+          <%}%>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>관심사</legend>
+        <input type="checkbox" id="trip" value="여행" name="favorite" />
+        <label for="trip">여행</label>
+        <input type="checkbox" id="fashion" value="패션" name="favorite" />
+        <label for="fashion">패션</label>
+        <input type="checkbox" id="food" value="음식" name="favorite" />
+        <label for="food">음식</label>
+      </fieldset>
+      <br />
+      <button type="submit" onclick="axiosSubmit()">회원가입</button>
+    </form>
+  </body>
+  <script>
+    async function axiosSubmit() {
+      const form = document.forms["register"];
+      const data = {
+        name: form.name.value,
+        gender: form.gender.value,
+        year: form.year.value,
+        month: form.month.value,
+        date: form.date.value,
+        favorite: form.favorite.value,
+      };
+      axios({
+        method: "get",
+        url: "/register1",
+        params: data,
+      }).then(function (response) {
+        console.log(response);
+        console.log(response.data);
+        const { name, gender, year, month, date, favorite } = res.data;
+        console.log(
+          `${name}님의 성별은 ${gender}이며 생년월일은 ${year}년 ${month}월 ${date}일 입니다. 취미는 ${favorite}입니다.`
+        );
+      });
+    }
+  </script>
+</html>
