@@ -21,7 +21,7 @@ CREATE TABLE member(
     name VARCHAR(5) NOT NULL,
     gender ENUM('F', 'M', '') DEFAULT '',
     birthday DATE NOT NULL,
-    age INT NOT NULL DEFAULT 0
+    age INT(3) NOT NULL DEFAULT 0
  );
  DESC user;
  INSERT INTO user (id,pw,name,gender,birthday,age) VALUES('hong1234','8o4bkg','홍길동','M','1990-01-31',33);
