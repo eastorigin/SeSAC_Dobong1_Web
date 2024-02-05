@@ -52,3 +52,5 @@ SELECT * FROM user WHERE age >= 25 AND age <= 50;
 UPDATE user set pw='12345678' WHERE id='hong1234';
 -- 9번
 DELETE FROM user WHERE id='jungkrat';
+
+-- select >> from >> where >> group by >> having >> order by >> limit
