@@ -40,7 +40,7 @@ SELECT * FROM user WHERE gender='M' ORDER BY name DESC;
 -- 3번
 SELECT id, name FROM user WHERE birthday LIKE '199%';
 -- 4번
-SELECT * FROM user WHERE birthday LIKE '%06%';
+SELECT * FROM user WHERE birthday LIKE '%-06-%' ORDER BY birthday;
 -- 5번
 SELECT * FROM user WHERE gender='M' AND birthday LIKE '197%';
 -- 6번
