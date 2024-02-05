@@ -47,6 +47,7 @@ SELECT * FROM user WHERE gender='M' AND birthday LIKE '197%';
 SELECT * FROM user ORDER BY age DESC LIMIT 3;
 -- 7번
 SELECT * FROM user WHERE age BETWEEN 25 AND 50;
+SELECT * FROM user WHERE age >= 25 AND age <= 50;
 -- 8번
 UPDATE user set pw='12345678' WHERE id='hong1234';
 -- 9번
