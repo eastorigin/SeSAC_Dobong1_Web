@@ -1,53 +1,79 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>table 실습 2</title>
-</head>
-<style>
+  </head>
+  <style>
     table {
-        width: 600px;
-        height: 900px;
-        border-collapse: collapse;
+      width: 600px;
+      height: 900px;
+      border-collapse: collapse;
+      text-align: center;
     }
     td {
-        border: 1px solid black;
+      border: 1px solid black;
     }
-</style>
-<body>
+    th {
+      border: 1px solid black;
+    }
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+  <body>
     <table>
+      <thead>
         <tr>
-            <td>구분</td>
-            <td>음료</td>
-            <td>가격</td>
-            <td>이미지</td>
+          <th>구분</th>
+          <th>음료</th>
+          <th>가격</th>
+          <th>이미지</th>
         </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-
+      </thead>
+      <tr>
+        <td rowspan="2">커피류</td>
+        <td>아메리카노</td>
+        <td>4200원</td>
+        <td>
+          <img
+            src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[110563]_20210426095937808.jpg"
+            alt="아메리카노"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>돌체라떼</td>
+        <td>4500원</td>
+        <td>
+          <img
+            src="https://i.namu.wiki/i/m8-O8XUjs0OyTutlKTOXYr3W5V0wuLAlcd0mqaj5XEzKcUET2ki8E-Fjitg3MjAEDIjPK42ubeLw2SxrZDTb6A.webp"
+            alt="돌체라떼"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2">주스류</td>
+        <td>자바칩 프라푸치노</td>
+        <td rowspan="2">5000원</td>
+        <td>
+          <img
+            src="https://img.danawa.com/prod_img/500000/391/542/img/7542391_1.jpg?_v=20190520121443"
+            alt="자바칩 프라푸치노"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>녹차 프라푸치노</td>
+        <td>
+          <img
+            src="https://cdn.imweb.me/thumbnail/20220402/08c87e68aa0a1.jpg"
+            alt="녹차 프라푸치노"
+          />
+        </td>
+      </tr>
     </table>
-</body>
+  </body>
 </html>
