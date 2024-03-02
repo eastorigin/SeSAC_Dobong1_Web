@@ -9,14 +9,14 @@
 
     <!-- TODO: 각 input의 value 값을 로그인 한 사람의 정보로 채우기 -->
     <form name="form_profile">
-      <label for="userid">ID</label>
+      <label for="userid">"<%=data.id%>"</label>
       <input type="hidden" id="id" value="<%=data.id%>" />
       <!-- readonly: userid는 수정 불가능 (조건임) -->
       <input
         id="userid"
         type="text"
         name="userid"
-        value="<%=data.userid%>"
+        value="<%=data.userId%>"
         readonly
       /><br />
       <label for="password">Password</label>
@@ -24,7 +24,7 @@
         id="password"
         type="password"
         name="pw"
-        value="<%=data.pw%>"
+        value="<%=data.userPw%>"
         required
       /><br />
       <label for="name">Name</label>

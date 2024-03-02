@@ -1,0 +1,33 @@
+#userId {
+  width: 494px;
+  height: 35px;
+}
+#userPw {
+  width: 494px;
+  height: 35px;
+}
+#btn_signin {
+  background-color: #ff6f0f;
+  color: white;
+  width: 500px;
+  height: 45px;
+  font-weight: bold;
+  border: none;
+}
+#btn_signup {
+  border: 1px solid #ff6f0f;
+  background-color: white;
+  font-weight: bold;
+  width: 500px;
+  height: 45px;
+}
+.loginWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
