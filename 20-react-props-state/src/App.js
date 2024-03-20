@@ -1,3 +1,5 @@
+import PracticeMap from "./components/PracticeMap";
+import Alphabet from "./components/Alphabet";
 import { ClassProps, ClassProps2 } from "./components/ClassProps";
 import ClassState from "./components/ClassState";
 import { FunctionProps, FunctionProps2 } from "./components/FunctionProps";
@@ -12,11 +14,19 @@ import {
   DecreaseState,
   Emoticon,
 } from "./components/PracticeState";
+import PropsMap from "./components/PropsMap";
 import AnswerState from "./components/practice/AnswerState";
 import ChangeObj from "./components/practice/ChangeObj";
 import PororoObj from "./components/practice/PororoObj";
+import PracticeMap2 from "./components/PracticeMap2";
 
 function App() {
+  const dataArr = [
+    { name: "peach", number: 5, price: 5000 },
+    { name: "banana", number: 1, price: 3000 },
+    { name: "apple", number: 10, price: 7000 },
+    { name: "grape", number: 12, price: 8500 },
+  ];
   return (
     <div className="App">
       <h1>hello, props</h1>
@@ -56,6 +66,14 @@ function App() {
       <h1>정답</h1>
       <AnswerState></AnswerState>
       <PororoObj></PororoObj>
+
+      <h1>map과 filter 사용</h1>
+      <PropsMap arr={dataArr} />
+      <Alphabet />
+
+      <h1>map 실습</h1>
+      <PracticeMap />
+      <PracticeMap2 />
     </div>
   );
 }
