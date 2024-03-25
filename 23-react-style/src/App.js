@@ -5,6 +5,7 @@ import ModuleCss from "./components/ModuleCss";
 import StyledComp from "./components/StyledComp";
 import FirstPage from "./components/FirstPage";
 import AppCopy from "./App copy";
+import Sass from "./components/Sass";
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       <BasicCss />
       <ModuleCss />
       <StyledComp />
-      <FirstPage />
-      <AppCopy />
+      {/* <FirstPage />
+      <AppCopy /> */}
+      <Sass />
     </>
   );
 }
