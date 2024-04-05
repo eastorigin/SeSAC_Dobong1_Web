@@ -1,23 +1,26 @@
 import { useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { create, done } from "../store/module/todo";
+import { ReduxState } from "../types/interface";
 
 export default function ToDoList() {
-  const list = useSelector((state) => state.todo.list);
+  const list = useSelector((state: ReduxState) => state.todo.list);
   //   console.log(list); // [id, text, done]
   const todoList = list.filter((li) => li.done === false);
   //   console.log(todoList);
 
   const dispatch = useDispatch();
-  const todoRef = useRef();
-  const nextID = useSelector((state) => state.todo.nextID);
+  const todoRef = useRef<HTMLInputElement>(null);
+  const nextID = useSelector((state: ReduxState) => state.todo.nextID);
   const createTodo = () => {
     //     dispatch({
     //       type: "todo/CREATE",
     //       payload: { id: 3, text: todoRef.current.value },
     //     });
-    dispatch(create({ id: nextID, text: todoRef.current.value }));
-    todoRef.current.value = "";
+    if (nextID && todoRef.current) {
+      dispatch(create({ id: nextID, text: todoRef.current.value }));
+      todoRef.current.value = "";
+    }
   };
 
   return (
