@@ -39,3 +39,28 @@ exports.postTodo = async (req, res) => {
     res.status(500).send("SERVER ERROR!!, 관리자에게 문의하세요");
   }
 };
+
+exports.patchTodo = async (req, res) => {
+  const { todoId } = req.params;
+  try {
+    const todo = await Todo.findbyPk(todoId);
+    todo.done = !todo.done;
+    await todo.save();
+    res.send({ isSuccess: true, done: todo.done });
+  } catch (err) {
+    console.log("server err!", err);
+    res.status(500).send("SERVER ERROR!!, 관리자에게 문의하세요");
+  }
+};
+
+exports.deleteTodo = async (req, res) => {
+  const { todoId } = req.params;
+  try {
+    const todo = await Todo.findbyPk(todoId);
+    await todo.destroy();
+    res.send({ isSuccess: true });
+  } catch (err) {
+    console.log("server err!", err);
+    res.status(500).send("SERVER ERROR!!, 관리자에게 문의하세요");
+  }
+};

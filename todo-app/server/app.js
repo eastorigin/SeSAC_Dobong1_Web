@@ -6,6 +6,9 @@ const { sequelize } = require("./models");
 const indexRouter = require("./routes");
 const userRouter = require("./routes/user");
 const serverPrefix = "/api-server";
+const dotenv = require("dotenv");
+dotenv.config();
+
 // body-parser 설정
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());

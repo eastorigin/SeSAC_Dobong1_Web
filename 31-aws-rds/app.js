@@ -7,7 +7,7 @@ const app = express();
 
 const userModel = require("./models/User");
 
-// config 설정
+// RDS config 설정
 const sequelize = new Sequelize(
   process.env.DB_NAME,
   process.env.DB_USER,
@@ -20,22 +20,22 @@ const sequelize = new Sequelize(
 
 const User = userModel(sequelize);
 
-// body-parser 미들웨어 설정
+// bodu-parser 미들웨어 설정
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// api 만들기
-// GET /api > "안녕하세요.." send 시켜주기
+// api만들기
+// [GET] /api > "안녕하세요.." send 시켜주기
 app.get("/api", (req, res) => {
   res.send("안녕하세여..");
 });
 
-// POST /api/users > user row 하나 추가
+// [POST] /api/users > user row 하나 추가
 app.post("/api/users", async (req, res) => {
   try {
     const { username, email } = req.body;
     const user = await User.create({ username, email });
-    console.log(user); // {}
+    console.log(user); //{}
     res.send(user);
   } catch (err) {
     console.log(err);
