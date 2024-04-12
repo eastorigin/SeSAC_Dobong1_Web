@@ -69,7 +69,7 @@ io.on("connection", (socket) => {
   socket.on("message", (message) => {
     console.log(message);
 
-    io.to(socket.room).emit("message_toAll", message);
+    io.to(socket.room).emit("message_toAll", message, socket.id);
   });
 });
 

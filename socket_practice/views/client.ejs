@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Socket 연습</title>
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <button id="hello">hello</button>
+    <button id="study">study</button>
+    <button id="bye">bye</button>
+    <div id="div"></div>
+    <script>
+      const socket = io();
+      const Hello = document.getElementById("hello");
+      const Study = document.getElementById("study");
+      const Bye = document.getElementById("bye");
+      const div = document.getElementById("div");
+
+      Hello.addEventListener("click", () => {
+        socket.emit("new_message", "hello: 안녕하세요~");
+
+        socket.on("message_render", (message) => {
+          const p = document.createElement("p");
+          div.innerText = "hello: 안녕하세요~";
+        });
+      });
+
+      Bye.addEventListener("click", () => {
+        socket.emit("new_message", "bye: 잘가~");
+
+        socket.on("message_render", (message) => {
+          const p = document.createElement("p");
+          div.innerText = "bye: 잘가~";
+        });
+      });
+
+      Study.addEventListener("click", () => {
+        socket.emit("new_message", "study: 공부해~");
+
+        socket.on("message_render", (message) => {
+          const p = document.createElement("p");
+          div.innerText = "study: 공부해~";
+        });
+      });
+    </script>
+  </body>
+</html>
