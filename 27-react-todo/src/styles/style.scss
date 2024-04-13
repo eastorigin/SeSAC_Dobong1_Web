@@ -1,0 +1,29 @@
+main {
+  .ListContainer {
+    text-align: center;
+    .ToDoList {
+      background-color: blanchedalmond;
+      input {
+        border-radius: 10px;
+      }
+      button {
+        border-radius: 10px;
+        margin-left: 8px;
+        background-color: bisque;
+      }
+      li {
+        text-decoration: underline;
+      }
+      border: 2px dashed skyblue;
+      color: yellowgreen;
+    }
+    .DoneList {
+      background-color: aquamarine;
+      li {
+        text-decoration: line-through;
+      }
+      border: 2px dashed salmon;
+      color: coral;
+    }
+  }
+}
