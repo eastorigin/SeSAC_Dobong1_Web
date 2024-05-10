@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d7d2c13-ebba-48ac-93ff-509a5dbe288c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/34_JAVA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-lecture.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_01_basic_syntax/Casting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_01_basic_syntax/DataTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_01_basic_syntax/InputOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_01_basic_syntax/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_02_control_statement/Conditional.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2gGIKCwEwn6soaRVtWVq4MXaiCi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Casting.executor": "Run",
+    "Application.Conditional.executor": "Run",
+    "Application.DataTypes.executor": "Run",
+    "Application.InputOutput.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Operator.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/easto/Desktop/github/SSAC_dobong/34_JAVA/java-lecture",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Conditional">
+    <configuration name="Casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_basic_syntax.Casting" />
+      <module name="java-lecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_01_basic_syntax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Conditional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_02_control_statement.Conditional" />
+      <module name="java-lecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_02_control_statement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_basic_syntax.DataTypes" />
+      <module name="java-lecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_01_basic_syntax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InputOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_basic_syntax.InputOutput" />
+      <module name="java-lecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_01_basic_syntax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Operator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_basic_syntax.Operator" />
+      <module name="java-lecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_01_basic_syntax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Conditional" />
+        <item itemvalue="Application.Operator" />
+        <item itemvalue="Application.InputOutput" />
+        <item itemvalue="Application.Casting" />
+        <item itemvalue="Application.DataTypes" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d7d2c13-ebba-48ac-93ff-509a5dbe288c" name="Changes" comment="" />
+      <created>1715317421789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715317421789</updated>
+    </task>
+    <servers />
+  </component>
+</project>
