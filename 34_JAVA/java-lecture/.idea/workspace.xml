@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d7d2c13-ebba-48ac-93ff-509a5dbe288c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/34_JAVA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-lecture.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_basic_syntax/Casting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_basic_syntax/DataTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_basic_syntax/InputOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_basic_syntax/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_control_statement/Conditional.java" afterDir="false" />
+    <list default="true" id="6d7d2c13-ebba-48ac-93ff-509a5dbe288c" name="Changes" comment="강의 자료">
+      <change afterPath="$PROJECT_DIR$/../../java-practice/src/Prac1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-practice/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-practice/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +27,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "eastorigin"
+  }
+}]]></component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/eastorigin/SeSAC_Dobong1_Web.git",
+    "accountId": "67c8562b-5c8b-4b22-b7df-b6fe462cbe59"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -51,22 +53,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Casting.executor": "Run",
-    "Application.Conditional.executor": "Run",
-    "Application.DataTypes.executor": "Run",
-    "Application.InputOutput.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Operator.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/easto/Desktop/github/SSAC_dobong/34_JAVA/java-lecture",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Casting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Conditional.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataTypes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InputOutput.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Operator.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/easto/Desktop/github/SSAC_dobong/34_JAVA/java-lecture&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Conditional">
     <configuration name="Casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_01_basic_syntax.Casting" />
@@ -152,6 +154,46 @@
       <option name="presentableId" value="Default" />
       <updated>1715317421789</updated>
     </task>
+    <task id="LOCAL-00001" summary="강의 자료">
+      <option name="closed" value="true" />
+      <created>1715327281599</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715327281599</updated>
+    </task>
+    <task id="LOCAL-00002" summary="강의 자료">
+      <option name="closed" value="true" />
+      <created>1715327300237</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715327300237</updated>
+    </task>
+    <task id="LOCAL-00003" summary="강의 자료">
+      <option name="closed" value="true" />
+      <created>1715327455186</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715327455186</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="강의 자료" />
+    <option name="LAST_COMMIT_MESSAGE" value="강의 자료" />
   </component>
 </project>
