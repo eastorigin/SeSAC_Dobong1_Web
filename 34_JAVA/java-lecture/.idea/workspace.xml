@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d7d2c13-ebba-48ac-93ff-509a5dbe288c" name="Changes" comment="강의 자료">
-      <change afterPath="$PROJECT_DIR$/../../java-practice/src/Prac1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_02_control_statement/Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_02_control_statement/Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_02_control_statement/MethodOverloading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_02_control_statement/Prac2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_02_control_statement/Prac3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_array/ArrayEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_array/ArrayListEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_array/Prac1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_array/Prac2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-practice/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-practice/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-practice/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-practice/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-practice/.idea/material_theme_project_new.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,21 +38,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "eastorigin"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;eastorigin&quot;
   }
-}]]></component>
+}</component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/eastorigin/SeSAC_Dobong1_Web.git",
-    "accountId": "67c8562b-5c8b-4b22-b7df-b6fe462cbe59"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/eastorigin/SeSAC_Dobong1_Web.git&quot;,
+    &quot;accountId&quot;: &quot;67c8562b-5c8b-4b22-b7df-b6fe462cbe59&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -53,29 +64,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Casting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Conditional.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataTypes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InputOutput.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Operator.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/easto/Desktop/github/SSAC_dobong/34_JAVA/java-lecture&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayEx.executor": "Run",
+    "Application.ArrayListEx.executor": "Run",
+    "Application.Casting.executor": "Run",
+    "Application.Conditional.executor": "Run",
+    "Application.DataTypes.executor": "Run",
+    "Application.InputOutput.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Method.executor": "Run",
+    "Application.MethodOverloading.executor": "Run",
+    "Application.Operator.executor": "Run",
+    "Application.Prac1.executor": "Run",
+    "Application.Prac2.executor": "Run",
+    "Application.Prac3.executor": "Run",
+    "Application._03_array.Prac2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/easto/Desktop/github/SSAC_dobong/34_JAVA/java-lecture",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
-}</component>
-  <component name="RunManager" selected="Application.Conditional">
-    <configuration name="Casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_01_basic_syntax.Casting" />
+}]]></component>
+  <component name="RunManager" selected="Application._03_array.Prac2">
+    <configuration name="ArrayEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_03_array.ArrayEx" />
       <module name="java-lecture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_01_basic_syntax.*" />
+          <option name="PATTERN" value="_03_array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,8 +102,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Conditional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_control_statement.Conditional" />
+    <configuration name="ArrayListEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_03_array.ArrayListEx" />
+      <module name="java-lecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_03_array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Prac1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_03_array.Prac1" />
+      <module name="java-lecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_03_array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Prac3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_02_control_statement.Prac3" />
       <module name="java-lecture" />
       <extension name="coverage">
         <pattern>
@@ -96,38 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_01_basic_syntax.DataTypes" />
+    <configuration name="_03_array.Prac2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_03_array.Prac2" />
       <module name="java-lecture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_01_basic_syntax.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InputOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_01_basic_syntax.InputOutput" />
-      <module name="java-lecture" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_01_basic_syntax.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Operator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_01_basic_syntax.Operator" />
-      <module name="java-lecture" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_01_basic_syntax.*" />
+          <option name="PATTERN" value="_03_array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Conditional" />
-        <item itemvalue="Application.Operator" />
-        <item itemvalue="Application.InputOutput" />
-        <item itemvalue="Application.Casting" />
-        <item itemvalue="Application.DataTypes" />
+        <item itemvalue="Application._03_array.Prac2" />
+        <item itemvalue="Application.Prac1" />
+        <item itemvalue="Application.ArrayListEx" />
+        <item itemvalue="Application.ArrayEx" />
+        <item itemvalue="Application.Prac3" />
       </list>
     </recent_temporary>
   </component>
