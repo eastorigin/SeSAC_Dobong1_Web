@@ -5,31 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d7d2c13-ebba-48ac-93ff-509a5dbe288c" name="Changes" comment="강의 자료">
-      <change afterPath="$PROJECT_DIR$/src/_04_Exception/ExceptionEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_04_Exception/ExceptionPractice03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_04_Exception/Prac1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_04_Exception/Prac2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/Practice/CalculatorPrac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/Practice/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/Puppy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/StudentEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/a_access_modifier/pack1/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/a_access_modifier/pack1/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/a_access_modifier/pack2/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/a_access_modifier/pack3/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/a_access_modifier/pack3/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/a_access_modifier/pack4/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/a_access_modifier/pack5/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/a_access_modifier/pack5/PersonEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/b_static/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/b_static/CalculatorEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/b_static/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/c_final/Const.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/c_final/ConstEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/c_final/FinalUpgrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_05_class/c_final/FinalVariableEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/Practice/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/Practice/Baek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/Practice/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/Practice/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/Practice/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/Practice/Kim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/Practice/Rectangle2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/Practice/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/Practice/ShapeEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/Practice/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/Practice/Student2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/Practice/Student2Ex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/a_access_modifier/pack6/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/a_access_modifier/pack6/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/a_access_modifier/pack7/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/a_access_modifier/pack7/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/d_inheritance/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/d_inheritance/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/d_inheritance/DogEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/d_inheritance/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/d_inheritance/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/d_inheritance/StudentEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/e_abstract/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/e_abstract/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/e_abstract/ShapeEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/e_abstract/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/e_abstract/abstract.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/f_interface/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/f_interface/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/f_interface/RemoteControlEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/f_interface/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/f_interface/interfaceEx/InterfaceEx01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_class/f_interface/interfaceEx/InterfaceEx02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_05_class/Practice/CalculatorPrac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_05_class/Practice/CalculatorPrac.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +49,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -87,6 +98,7 @@
     "Application.Conditional.executor": "Run",
     "Application.ConstEx.executor": "Run",
     "Application.DataTypes.executor": "Run",
+    "Application.DogEx.executor": "Run",
     "Application.ExceptionEx.executor": "Run",
     "Application.InputOutput.executor": "Run",
     "Application.Main.executor": "Run",
@@ -97,9 +109,12 @@
     "Application.Prac1.executor": "Run",
     "Application.Prac2.executor": "Run",
     "Application.Prac3.executor": "Run",
+    "Application.ShapeEx.executor": "Run",
+    "Application.Student2Ex.executor": "Run",
     "Application.StudentEx.executor": "Run",
     "Application._03_array.Prac2.executor": "Run",
     "Application._04_Exception.Prac1.executor": "Run",
+    "Application._05_class.Practice.ShapeEx.executor": "Run",
     "Application._05_class.a_access_modifier.pack3.B.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -109,13 +124,13 @@
     "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CalculatorPrac">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_05_class.b_static.Calculator" />
+  <component name="RunManager" selected="Application._05_class.Practice.ShapeEx">
+    <configuration name="DogEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_05_class.d_inheritance.DogEx" />
       <module name="java-lecture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_05_class.b_static.*" />
+          <option name="PATTERN" value="_05_class.d_inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_05_class.b_static.CalculatorEx" />
+    <configuration name="ShapeEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_05_class.e_abstract.ShapeEx" />
       <module name="java-lecture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_05_class.b_static.*" />
+          <option name="PATTERN" value="_05_class.e_abstract.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,8 +151,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorPrac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_05_class.Practice.CalculatorPrac" />
+    <configuration name="Student2Ex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_05_class.Practice.Student2Ex" />
       <module name="java-lecture" />
       <extension name="coverage">
         <pattern>
@@ -149,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_05_class.c_final.ConstEx" />
+    <configuration name="StudentEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_05_class.d_inheritance.StudentEx" />
       <module name="java-lecture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_05_class.c_final.*" />
+          <option name="PATTERN" value="_05_class.d_inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_05_class.a_access_modifier.pack5.PersonEx" />
+    <configuration name="_05_class.Practice.ShapeEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_05_class.Practice.ShapeEx" />
       <module name="java-lecture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_05_class.a_access_modifier.pack5.*" />
+          <option name="PATTERN" value="_05_class.Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CalculatorPrac" />
-        <item itemvalue="Application.ConstEx" />
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.CalculatorEx" />
-        <item itemvalue="Application.PersonEx" />
+        <item itemvalue="Application._05_class.Practice.ShapeEx" />
+        <item itemvalue="Application.Student2Ex" />
+        <item itemvalue="Application.ShapeEx" />
+        <item itemvalue="Application.DogEx" />
+        <item itemvalue="Application.StudentEx" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715587498151</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="강의 자료">
+      <option name="closed" value="true" />
+      <created>1715933079550</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715933079550</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

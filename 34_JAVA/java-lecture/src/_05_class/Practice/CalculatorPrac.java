@@ -27,5 +27,6 @@ public class CalculatorPrac {
             System.out.println("넓이는: " + rectangles.get(i).getArea());
             System.out.println("------------------------------");
         }
+        System.out.println("Rectangle 인스터의 개수는 : " + rectangles.size());
     }
 }
